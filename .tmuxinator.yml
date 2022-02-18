@@ -4,5 +4,5 @@ windows:
       layout: tiled
       root: .
       panes:
-        - npm run build
+        - PORT=3005 npm run build
         - npm run dev
